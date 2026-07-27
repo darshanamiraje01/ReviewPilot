@@ -1,15 +1,15 @@
-# 🔍 CodeLens AI
+# 🔍 ReviewPilot
 
 > **AI-powered code review for every GitHub pull request.**  
 > Instant feedback on bugs, security vulnerabilities, performance issues, and code quality — posted as inline comments directly on your PR.
 
-![CodeLens AI Dashboard](https://via.placeholder.com/1200x600/7c3aed/ffffff?text=CodeLens+AI+Dashboard)
+![ReviewPilot Dashboard](https://via.placeholder.com/1200x600/7c3aed/ffffff?text=ReviewPilot+Dashboard)
 
 ---
 
 ## ✨ What it does
 
-When a developer opens a pull request on a connected repository, CodeLens AI automatically:
+When a developer opens a pull request on a connected repository, ReviewPilot automatically:
 
 1. **Receives** the GitHub webhook event (verified with HMAC-SHA256)
 2. **Fetches** the PR diff from the GitHub API
@@ -97,7 +97,7 @@ Worker Process
 ## 📊 What the AI Reviews
 
 ```javascript
-// Example: CodeLens AI catches these issues automatically
+// Example: ReviewPilot catches these issues automatically
 
 // ❌ CRITICAL (Security) — SQL Injection
 const query = "SELECT * FROM users WHERE id = " + req.query.id
@@ -126,9 +126,11 @@ return user.profile.name.toUpperCase()  // crashes if profile is null
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/darshanamiraje01/codelens-ai.git
-cd codelens-ai
+
+git clone https://github.com/darshanamiraje01/ReviewPilot.git
+cd ReviewPilot
 npm install
+
 ```
 
 ### 2. Environment variables
@@ -221,8 +223,6 @@ npm run test:coverage # Coverage report
 ## 📁 Project Structure
 
 ```
-codelens-ai/
-├── app/
 │   ├── (auth)/login/          # Login page
 │   ├── (dashboard)/           # Dashboard pages (sidebar layout)
 │   │   ├── page.tsx           # Overview with charts
@@ -291,9 +291,8 @@ Final-year Information Technology student
 Dr. D. Y. Patil College of Engineering, Akurdi, Pune  
 CGPA: 9.24/10
 
-- GitHub: [@darshanamiraje01](https://github.com/darshanamiraje01)
-- Project: [github.com/darshanamiraje01/codelens-ai](https://github.com/darshanamiraje01/codelens-ai)
-
+* GitHub: [@darshanamiraje01](https://github.com/darshanamiraje01)
+* Project: [github.com/darshanamiraje01/ReviewPilot](https://github.com/darshanamiraje01/ReviewPilot)
 ---
 
 ## 📄 License
