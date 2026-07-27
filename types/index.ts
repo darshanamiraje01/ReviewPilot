@@ -1,5 +1,5 @@
 // types/index.ts
-// Global TypeScript types and interfaces for CodeLens AI
+// Global TypeScript types and interfaces for ReviewPilot
 // All shared types live here so they can be imported from '@/types'
 
 // ─── Severity & Category Enums ────────────────────────────────────────────────
