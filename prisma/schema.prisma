@@ -52,7 +52,7 @@ model Installation {
 }
 
 // ————— Repository ————————————————————————————————————————
-// A GitHub repo that has CodeLens AI active.
+// A GitHub repo that has ReviewPilot active.
 // settings stores per-repo configuration as JSON.
 
 model Repository {
