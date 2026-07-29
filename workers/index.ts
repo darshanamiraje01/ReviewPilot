@@ -23,7 +23,7 @@ if (process.env.NODE_ENV !== "production") {
 
 import { createReviewWorker } from "@/lib/queue/workers/review.worker";
 
-console.log("Starting CodeLens AI worker process...");
+console.log("Starting ReviewPilot worker process...");
 console.log(`Environment: ${process.env.NODE_ENV ?? "development"}`);
 console.log(`Redis URL: ${process.env.REDIS_URL ? "configured ✓" : "MISSING ✗"}`);
 console.log(`Database URL: ${process.env.DATABASE_URL ? "configured ✓" : "MISSING ✗"}`);
