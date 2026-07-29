@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CodeLens AI",
+  title: "ReviewPilot",
   description: "AI-powered code review for every pull request",
 };
 

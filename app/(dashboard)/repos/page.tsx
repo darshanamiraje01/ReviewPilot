@@ -24,7 +24,7 @@ export default async function ReposPage() {
       <div>
         <h1 className="text-2xl font-bold tracking-tight">Repositories</h1>
         <p className="text-muted-foreground">
-          Manage which repositories CodeLens AI reviews
+          Manage which repositories ReviewPilot reviews
         </p>
       </div>
 
@@ -76,11 +76,11 @@ export default async function ReposPage() {
               <BookOpen className="h-8 w-8 text-muted-foreground mb-3" />
               <p className="text-sm font-medium mb-1">No repositories connected</p>
               <p className="text-xs text-muted-foreground max-w-sm">
-                Install the CodeLens AI GitHub App on your repositories to
+                Install the ReviewPilot GitHub App on your repositories to
                 start getting automated code reviews.
               </p>
               
-                <a href="https://github.com/apps/codelensai-darshana"
+                <a href="https://github.com/apps/reviewpilot-darshana"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 text-xs text-primary hover:underline"

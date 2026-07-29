@@ -10,7 +10,7 @@ export default function LoginPage() {
     <main className="flex min-h-screen flex-col items-center justify-center bg-gray-50 px-4">
       <div className="w-full max-w-sm space-y-6 text-center">
         <div className="space-y-2">
-          <h1 className="text-3xl font-bold text-gray-900">CodeLens AI</h1>
+          <h1 className="text-3xl font-bold text-gray-900">ReviewPilot</h1>
           <p className="text-sm text-gray-500">
             AI-powered code review for every pull request
           </p>
