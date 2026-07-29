@@ -166,7 +166,7 @@ export async function postInlineComment(
 // ─── Helper Utilities ─────────────────────────────────────────────────────────
 
 // Parse "owner/repo" format into separate owner and repo strings
-// e.g. "darshanamiraje01/codelens-ai" → { owner: "darshanamiraje01", repo: "codelens-ai" }
+// e.g. "darshanamiraje01/reviewpilot" → { owner: "darshanamiraje01", repo: "reviewpilot" }
 export function parseRepoFullName(fullName: string): {
   owner: string;
   repo: string;

@@ -18,7 +18,7 @@ export const authConfig: NextAuthConfig = {
   // ─── Providers ──────────────────────────────────────────────────────────────
   // List of OAuth providers users can sign in with.
   // We start with GitHub only — it's the only one that makes sense
-  // for a developer tool like CodeLens AI.
+  // for a developer tool like ReviewPilot.
   providers: [
     GitHub({
       clientId: process.env.GITHUB_CLIENT_ID!,
